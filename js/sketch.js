@@ -16,14 +16,17 @@ function draw() {
         line(mouseX, mouseY, 550, 600);
         stroke(0, 0, 255)
     } else {
-        line(mouseX, mouseY, 550, 300);
+        line(mouseX, mouseY, 0, 0);
         stroke(0, 0, 0)
+        line(mouseX, mouseY, 0, 1000);
+        stroke(255, 255, 255)
+
 
     }
     fill(0);
 
 
-    strokeWeight(4);
+    // strokeWeight(4);
     cursor(CROSS, 8, 20)
 
 
